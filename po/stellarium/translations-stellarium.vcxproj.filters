@@ -1,0 +1,428 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\po\stellarium\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\aa.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\ab.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\ae.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\af.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\ak.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\am.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\an.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\ar.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\as.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\ast.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\av.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\az.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\ba.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\be.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\ber.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\bg.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\bh.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\bi.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\bn.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\bo.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\br.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\bs.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\ca.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\ce.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\ckb.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\cs.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\csb.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\cv.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\cy.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\da.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\de.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\dv.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\el.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\en.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\en_AU.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\en_CA.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\en_GB.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\en_US.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\eo.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\es.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\et.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\eu.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\fa.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\fi.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\fil.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\fj.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\fr.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\fy.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\ga.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\gd.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\gl.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\gn.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\gu.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\gv.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\haw.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\he.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\hi.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\hne.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\hr.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\hrx.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\ht.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\hu.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\hy.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\ia.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\id.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\is.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\it.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\ja.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\jv.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\ka.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\kg.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\kk.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\km.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\kn.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\ko.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\ky.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\la.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\lb.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\lo.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\lt.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\lv.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\mai.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\mi.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\mk.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\ml.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\mn.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\mo.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\mr.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\ms.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\mt.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\na.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\nan.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\nb.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\nds.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\ne.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\nl.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\nn.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\oc.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\oj.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\os.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\pa.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\pl.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\pt.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\pt_BR.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\ro.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\ru.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\sah.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\sc.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\sco.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\se.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\si.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\sk.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\sl.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\sm.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\sq.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\sr.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\su.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\sv.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\sw.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\ta.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\te.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\tg.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\th.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\tl.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\tr.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\tt.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\ug.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\uk.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\uz.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\vi.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\wa.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\xh.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\zh.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\zh_CN.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\zh_HK.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\zh_TW.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\dd305a550bb3ded08c814b0645356093\zu.qm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\CMakeFiles\fc1d5bc9977f60f5ff09ce47e948b52a\translations-stellarium.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\po\stellarium\CMakeFiles\translations-stellarium" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C5E52345-9725-3084-8D3E-F044507D0E9F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

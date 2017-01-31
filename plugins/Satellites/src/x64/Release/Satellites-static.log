@@ -1,0 +1,41 @@
+﻿Build started 1/25/2017 3:35:34 PM.
+     1>Project "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\Satellites\src\Satellites-static.vcxproj" on node 7 (Build target(s)).
+     1>PreBuildEvent:
+         setlocal
+         cd C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\Satellites\src
+         if %errorlevel% neq 0 goto :cmEnd
+         C:
+         if %errorlevel% neq 0 goto :cmEnd
+         "C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/builds/msvc2013/plugins/Satellites/src/CMakeFiles/Satellites-static_automoc.dir/ Release
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\x64\Release\Satellites.lib" /NOLOGO /MACHINE:X64  x64\Release\gSatTEME.obj
+         x64\Release\mathUtils.obj
+         x64\Release\gTime.obj
+         x64\Release\gTimeSpan.obj
+         x64\Release\gVector.obj
+         x64\Release\sgp4ext.obj
+         x64\Release\sgp4io.obj
+         x64\Release\sgp4unit.obj
+         x64\Release\gSatWrapper.obj
+         x64\Release\Satellite.obj
+         x64\Release\Satellites.obj
+         x64\Release\SatellitesListModel.obj
+         x64\Release\SatellitesListFilterModel.obj
+         x64\Release\SatellitesDialog.obj
+         x64\Release\SatellitesImportDialog.obj
+         x64\Release\qrc_Satellites.obj
+         "x64\Release\Satellites-static_automoc.obj"
+         Satellites-static.vcxproj -> C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\x64\Release\Satellites.lib
+     1>Done Building Project "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\Satellites\src\Satellites-static.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.74

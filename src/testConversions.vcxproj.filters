@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\tests\testConversions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\StelUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\zlib\adler32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\zlib\compress.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\zlib\crc32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\zlib\deflate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\zlib\gzclose.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\zlib\gzlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\zlib\gzread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\zlib\gzwrite.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\zlib\infback.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\zlib\inffast.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\zlib\inflate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\zlib\inftrees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\zlib\trees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\zlib\uncompr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\zlib\zutil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\src\testConversions_automoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\tests\testConversions.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\StelUtils.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\zlib\crc32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\zlib\deflate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\zlib\gzguts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\zlib\inffast.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\zlib\inffixed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\zlib\inflate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\zlib\inftrees.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\zlib\trees.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\zlib\zconf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\zlib\zlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\zlib\zutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A199443D-0E93-36FD-86E9-B16A8F15420F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DC05B862-2114-309E-BF00-121AE70D1F94}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

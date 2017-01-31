@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\PointerCoordinates\src\PointerCoordinates.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\PointerCoordinates\src\gui\PointerCoordinatesWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\PointerCoordinates\src\qrc_PointerCoordinates.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\PointerCoordinates\src\PointerCoordinates-static_automoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\PointerCoordinates\src\PointerCoordinates.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\PointerCoordinates\src\gui\PointerCoordinatesWindow.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\PointerCoordinates\src\ui_pointerCoordinatesWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\PointerCoordinates\src\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\PointerCoordinates\resources\PointerCoordinates.qrc" />
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\PointerCoordinates\src\gui\pointerCoordinatesWindow.ui" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A199443D-0E93-36FD-86E9-B16A8F15420F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DC05B862-2114-309E-BF00-121AE70D1F94}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

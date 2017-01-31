@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Satellites\src\gsatellite\gSatTEME.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Satellites\src\gsatellite\mathUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Satellites\src\gsatellite\gTime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Satellites\src\gsatellite\gTimeSpan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Satellites\src\gsatellite\gVector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Satellites\src\gsatellite\sgp4ext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Satellites\src\gsatellite\sgp4io.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Satellites\src\gsatellite\sgp4unit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Satellites\src\gSatWrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Satellites\src\Satellite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Satellites\src\Satellites.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Satellites\src\SatellitesListModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Satellites\src\SatellitesListFilterModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Satellites\src\gui\SatellitesDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Satellites\src\gui\SatellitesImportDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\Satellites\src\qrc_Satellites.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\Satellites\src\Satellites-static_automoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Satellites\src\gsatellite\gException.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Satellites\src\gsatellite\gSatTEME.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Satellites\src\gsatellite\mathUtils.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Satellites\src\gsatellite\gTime.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Satellites\src\gsatellite\gVector.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Satellites\src\gsatellite\gVectorTempl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Satellites\src\gsatellite\sgp4ext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Satellites\src\gsatellite\sgp4io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Satellites\src\gsatellite\sgp4unit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Satellites\src\gsatellite\stdsat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Satellites\src\gSatWrapper.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Satellites\src\Satellite.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Satellites\src\Satellites.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Satellites\src\SatellitesListModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Satellites\src\SatellitesListFilterModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Satellites\src\gui\SatellitesDialog.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Satellites\src\gui\SatellitesImportDialog.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\Satellites\src\ui_satellitesDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\Satellites\src\ui_satellitesImportDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Satellites\src\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Satellites\resources\Satellites.qrc" />
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Satellites\src\gui\satellitesDialog.ui" />
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Satellites\src\gui\satellitesImportDialog.ui" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A199443D-0E93-36FD-86E9-B16A8F15420F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DC05B862-2114-309E-BF00-121AE70D1F94}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

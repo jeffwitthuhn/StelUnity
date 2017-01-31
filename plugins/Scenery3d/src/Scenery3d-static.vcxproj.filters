@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Scenery3d\src\AABB.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Scenery3d\src\Frustum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Scenery3d\src\Line.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Scenery3d\src\Plane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Scenery3d\src\SPolygon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Scenery3d\src\Polyhedron.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Scenery3d\src\SceneInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Scenery3d\src\Scenery3d.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Scenery3d\src\Scenery3dMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Scenery3d\src\gui\Scenery3dDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Scenery3d\src\gui\StoredViewDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Scenery3d\src\ShaderManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Scenery3d\src\OBJ.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Scenery3d\src\Heightmap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\Scenery3d\src\qrc_Scenery3d.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\Scenery3d\src\Scenery3d-static_automoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Scenery3d\src\AABB.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Scenery3d\src\Frustum.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Scenery3d\src\GLFuncs.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Scenery3d\src\Line.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Scenery3d\src\Plane.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Scenery3d\src\SPolygon.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Scenery3d\src\Polyhedron.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Scenery3d\src\S3DEnum.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Scenery3d\src\SceneInfo.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Scenery3d\src\Scenery3d.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Scenery3d\src\Scenery3dMgr.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Scenery3d\src\gui\Scenery3dDialog.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Scenery3d\src\gui\Scenery3dDialog_p.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Scenery3d\src\gui\StoredViewDialog.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Scenery3d\src\gui\StoredViewDialog_p.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Scenery3d\src\ShaderManager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Scenery3d\src\OBJ.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Scenery3d\src\Heightmap.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\Scenery3d\src\ui_scenery3dDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\Scenery3d\src\ui_storedViewDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Scenery3d\src\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Scenery3d\resources\Scenery3d.qrc" />
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Scenery3d\src\gui\scenery3dDialog.ui" />
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Scenery3d\src\gui\storedViewDialog.ui" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A199443D-0E93-36FD-86E9-B16A8F15420F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DC05B862-2114-309E-BF00-121AE70D1F94}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

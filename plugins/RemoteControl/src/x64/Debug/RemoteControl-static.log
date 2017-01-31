@@ -1,0 +1,86 @@
+﻿Build started 1/25/2017 3:56:39 PM.
+     1>Project "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\RemoteControl\src\RemoteControl-static.vcxproj" on node 4 (Build target(s)).
+     1>PreBuildEvent:
+         setlocal
+         cd C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\RemoteControl\src
+         if %errorlevel% neq 0 goto :cmEnd
+         C:
+         if %errorlevel% neq 0 goto :cmEnd
+         "C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/builds/msvc2013/plugins/RemoteControl/src/CMakeFiles/RemoteControl-static_automoc.dir/ Debug
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+       CustomBuild:
+         Building Custom Rule C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/plugins/RemoteControl/src/CMakeLists.txt
+         CMake does not need to re-run because C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\RemoteControl\src\CMakeFiles\generate.stamp is up-to-date.
+         Generating qrc_RemoteControl.cpp
+         Generating ui_remoteControlDialog.h
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\RemoteControl\src" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\RemoteControl\src" /IC:\Qt5\5.5\msvc2013_64\include /IC:\Qt5\5.5\msvc2013_64\include\QtScript /IC:\Qt5\5.5\msvc2013_64\include\QtCore /I"C:\Qt5\5.5\msvc2013_64\.\mkspecs\win32-msvc2013" /IC:\Qt5\5.5\msvc2013_64\include\QtMultimedia /IC:\Qt5\5.5\msvc2013_64\include\QtNetwork /IC:\Qt5\5.5\msvc2013_64\include\QtGui /IC:\Qt5\5.5\msvc2013_64\include\QtMultimediaWidgets /IC:\Qt5\5.5\msvc2013_64\include\QtWidgets /IC:\Qt5\5.5\msvc2013_64\include\QtTest /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\modules" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\planetsephems" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\qtcompress" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\qcustomplot" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\glues_stel\source" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\glues_stel\source\libtess" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\gui" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\scripting" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\src" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\zlib" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\RemoteControl\src\." /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\RemoteControl\src\gui" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\RemoteControl\src\qtwebapp" /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D QT_STATICPLUGIN /D QT_CORE_LIB /D QT_NETWORK_LIB /D QT_WIDGETS_LIB /D QT_GUI_LIB /D STELLARIUM_MAJOR=0 /D STELLARIUM_MINOR=15 /D STELLARIUM_PATCH=1 /D "PACKAGE_VERSION=\"0.15.1\"" /D "COPYRIGHT_YEARS=\"2000-2016\"" /D STELLARIUM_RELEASE_BUILD /D QT_NO_DEBUG /D NDEBUG /D _USE_MATH_DEFINES /D NOMINMAX /D _WINSOCKAPI_ /D _CRT_SECURE_NO_WARNINGS /D ENABLE_NLS /D ENABLE_SPOUT /D ENABLE_SCRIPT_CONSOLE /D ENABLE_MEDIA /D "INSTALL_DATADIR=\".\"" /D "INSTALL_LOCALEDIR=\"./locale\"" /D QT_PLUGIN /D QT_DLL /D _REENTRANT /D "REMOTECONTROL_VERSION=\"0.0.1\"" /D "REMOTECONTROL_WEBROOT_PATH=\"C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/plugins/RemoteControl/webroot/\"" /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /wd4244 /wd4005 /wd4101 /wd4996 /wd4305 /wd4805 /errorReport:prompt "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\RemoteControl\src\AbstractAPIService.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\RemoteControl\src\APIController.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\RemoteControl\src\MainService.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\RemoteControl\src\ObjectService.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\RemoteControl\src\LocationService.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\RemoteControl\src\LocationSearchService.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\RemoteControl\src\RemoteControl.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\RemoteControl\src\RequestHandler.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\RemoteControl\src\ScriptService.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\RemoteControl\src\SimbadService.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\RemoteControl\src\StelActionService.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\RemoteControl\src\StelPropertyService.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\RemoteControl\src\ViewService.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\RemoteControl\src\gui\RemoteControlDialog.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\RemoteControl\src\qrc_RemoteControl.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\RemoteControl\src\qtwebapp\httpserver\httpconnectionhandler.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\RemoteControl\src\qtwebapp\httpserver\httpconnectionhandlerpool.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\RemoteControl\src\qtwebapp\httpserver\httpcookie.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\RemoteControl\src\qtwebapp\httpserver\httpglobal.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\RemoteControl\src\qtwebapp\httpserver\httplistener.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\RemoteControl\src\qtwebapp\httpserver\httprequest.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\RemoteControl\src\qtwebapp\httpserver\httprequesthandler.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\RemoteControl\src\qtwebapp\httpserver\httpresponse.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\RemoteControl\src\qtwebapp\httpserver\staticfilecontroller.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\RemoteControl\src\qtwebapp\templateengine\template.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\RemoteControl\src\RemoteControl-static_automoc.cpp"
+         AbstractAPIService.cpp
+         APIController.cpp
+         MainService.cpp
+         ObjectService.cpp
+         LocationService.cpp
+         LocationSearchService.cpp
+         RemoteControl.cpp
+         RequestHandler.cpp
+         ScriptService.cpp
+         SimbadService.cpp
+         StelActionService.cpp
+         StelPropertyService.cpp
+         ViewService.cpp
+         RemoteControlDialog.cpp
+         qrc_RemoteControl.cpp
+         httpconnectionhandler.cpp
+         httpconnectionhandlerpool.cpp
+         httpcookie.cpp
+         httpglobal.cpp
+         httplistener.cpp
+         Generating Code...
+         Compiling...
+         httprequest.cpp
+         httprequesthandler.cpp
+         httpresponse.cpp
+         staticfilecontroller.cpp
+         template.cpp
+         RemoteControl-static_automoc.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\x64\Debug\RemoteControl.lib" /NOLOGO /MACHINE:X64 x64\Debug\AbstractAPIService.obj
+         x64\Debug\APIController.obj
+         x64\Debug\MainService.obj
+         x64\Debug\ObjectService.obj
+         x64\Debug\LocationService.obj
+         x64\Debug\LocationSearchService.obj
+         x64\Debug\RemoteControl.obj
+         x64\Debug\RequestHandler.obj
+         x64\Debug\ScriptService.obj
+         x64\Debug\SimbadService.obj
+         x64\Debug\StelActionService.obj
+         x64\Debug\StelPropertyService.obj
+         x64\Debug\ViewService.obj
+         x64\Debug\RemoteControlDialog.obj
+         x64\Debug\qrc_RemoteControl.obj
+         x64\Debug\httpconnectionhandler.obj
+         x64\Debug\httpconnectionhandlerpool.obj
+         x64\Debug\httpcookie.obj
+         x64\Debug\httpglobal.obj
+         x64\Debug\httplistener.obj
+         x64\Debug\httprequest.obj
+         x64\Debug\httprequesthandler.obj
+         x64\Debug\httpresponse.obj
+         x64\Debug\staticfilecontroller.obj
+         x64\Debug\template.obj
+         "x64\Debug\RemoteControl-static_automoc.obj"
+         RemoteControl-static.vcxproj -> C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\x64\Debug\RemoteControl.lib
+     1>Done Building Project "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\RemoteControl\src\RemoteControl-static.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:32.34

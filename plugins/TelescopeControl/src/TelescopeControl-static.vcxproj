@@ -1,0 +1,664 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{ACD9F58B-3371-32C0-9270-8FCE300F72DD}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>TelescopeControl-static</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">TelescopeControl-static.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">TelescopeControl</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">TelescopeControl-static.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">TelescopeControl</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">TelescopeControl-static.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">TelescopeControl</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">TelescopeControl-static.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">TelescopeControl</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src;C:\Qt5\5.5\msvc2013\include;C:\Qt5\5.5\msvc2013\include\QtScript;C:\Qt5\5.5\msvc2013\include\QtCore;C:\Qt5\5.5\msvc2013\.\mkspecs\win32-msvc2013;C:\Qt5\5.5\msvc2013\include\QtMultimedia;C:\Qt5\5.5\msvc2013\include\QtNetwork;C:\Qt5\5.5\msvc2013\include\QtGui;C:\Qt5\5.5\msvc2013\include\QtMultimediaWidgets;C:\Qt5\5.5\msvc2013\include\QtWidgets;C:\Qt5\5.5\msvc2013\include\QtTest;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\modules;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\planetsephems;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\qtcompress;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\qcustomplot;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\glues_stel\source;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\glues_stel\source\libtess;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\gui;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\scripting;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\src;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\zlib;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\.;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\gui;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\clients;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\servers;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\gui;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\servers;C:\Qt5\5.5\msvc2013\include\QtSerialPort;C:\Qt5\5.5\msvc2013\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4244;4005;4101;4996;4305;4805</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;QT_STATICPLUGIN;QT_CORE_LIB;QT_NETWORK_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_SERIALPORT_LIB;QT_OPENGL_LIB;STELLARIUM_MAJOR=0;STELLARIUM_MINOR=15;STELLARIUM_PATCH=1;PACKAGE_VERSION="0.15.1";COPYRIGHT_YEARS="2000-2016";STELLARIUM_RELEASE_BUILD;QT_NO_DEBUG;NDEBUG;_USE_MATH_DEFINES;NOMINMAX;_WINSOCKAPI_;_CRT_SECURE_NO_WARNINGS;ENABLE_NLS;ENABLE_SPOUT;ENABLE_SCRIPT_CONSOLE;ENABLE_MEDIA;INSTALL_DATADIR=".";INSTALL_LOCALEDIR="./locale";QT_PLUGIN;QT_DLL;_REENTRANT;TELESCOPE_CONTROL_VERSION="0.2.11";DEBUG3;DEBUG4;DEBUG5;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;QT_STATICPLUGIN;QT_CORE_LIB;QT_NETWORK_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_SERIALPORT_LIB;QT_OPENGL_LIB;STELLARIUM_MAJOR=0;STELLARIUM_MINOR=15;STELLARIUM_PATCH=1;PACKAGE_VERSION=\"0.15.1\";COPYRIGHT_YEARS=\"2000-2016\";STELLARIUM_RELEASE_BUILD;QT_NO_DEBUG;NDEBUG;_USE_MATH_DEFINES;NOMINMAX;_WINSOCKAPI_;_CRT_SECURE_NO_WARNINGS;ENABLE_NLS;ENABLE_SPOUT;ENABLE_SCRIPT_CONSOLE;ENABLE_MEDIA;INSTALL_DATADIR=\".\";INSTALL_LOCALEDIR=\"./locale\";QT_PLUGIN;QT_DLL;_REENTRANT;TELESCOPE_CONTROL_VERSION=\"0.2.11\";DEBUG3;DEBUG4;DEBUG5;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src;C:\Qt5\5.5\msvc2013\include;C:\Qt5\5.5\msvc2013\include\QtScript;C:\Qt5\5.5\msvc2013\include\QtCore;C:\Qt5\5.5\msvc2013\.\mkspecs\win32-msvc2013;C:\Qt5\5.5\msvc2013\include\QtMultimedia;C:\Qt5\5.5\msvc2013\include\QtNetwork;C:\Qt5\5.5\msvc2013\include\QtGui;C:\Qt5\5.5\msvc2013\include\QtMultimediaWidgets;C:\Qt5\5.5\msvc2013\include\QtWidgets;C:\Qt5\5.5\msvc2013\include\QtTest;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\modules;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\planetsephems;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\qtcompress;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\qcustomplot;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\glues_stel\source;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\glues_stel\source\libtess;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\gui;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\scripting;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\src;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\zlib;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\.;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\gui;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\clients;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\servers;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\gui;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\servers;C:\Qt5\5.5\msvc2013\include\QtSerialPort;C:\Qt5\5.5\msvc2013\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src;C:\Qt5\5.5\msvc2013\include;C:\Qt5\5.5\msvc2013\include\QtScript;C:\Qt5\5.5\msvc2013\include\QtCore;C:\Qt5\5.5\msvc2013\.\mkspecs\win32-msvc2013;C:\Qt5\5.5\msvc2013\include\QtMultimedia;C:\Qt5\5.5\msvc2013\include\QtNetwork;C:\Qt5\5.5\msvc2013\include\QtGui;C:\Qt5\5.5\msvc2013\include\QtMultimediaWidgets;C:\Qt5\5.5\msvc2013\include\QtWidgets;C:\Qt5\5.5\msvc2013\include\QtTest;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\modules;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\planetsephems;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\qtcompress;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\qcustomplot;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\glues_stel\source;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\glues_stel\source\libtess;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\gui;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\scripting;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\src;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\zlib;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\.;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\gui;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\clients;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\servers;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\gui;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\servers;C:\Qt5\5.5\msvc2013\include\QtSerialPort;C:\Qt5\5.5\msvc2013\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic moc for target TelescopeControl-static</Message>
+      <Command>setlocal
+cd C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/builds/msvc2013/plugins/TelescopeControl/src/CMakeFiles/TelescopeControl-static_automoc.dir/ Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Lib>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src;C:\Qt5\5.5\msvc2013\include;C:\Qt5\5.5\msvc2013\include\QtScript;C:\Qt5\5.5\msvc2013\include\QtCore;C:\Qt5\5.5\msvc2013\.\mkspecs\win32-msvc2013;C:\Qt5\5.5\msvc2013\include\QtMultimedia;C:\Qt5\5.5\msvc2013\include\QtNetwork;C:\Qt5\5.5\msvc2013\include\QtGui;C:\Qt5\5.5\msvc2013\include\QtMultimediaWidgets;C:\Qt5\5.5\msvc2013\include\QtWidgets;C:\Qt5\5.5\msvc2013\include\QtTest;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\modules;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\planetsephems;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\qtcompress;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\qcustomplot;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\glues_stel\source;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\glues_stel\source\libtess;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\gui;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\scripting;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\src;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\zlib;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\.;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\gui;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\clients;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\servers;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\gui;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\servers;C:\Qt5\5.5\msvc2013\include\QtSerialPort;C:\Qt5\5.5\msvc2013\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4244;4005;4101;4996;4305;4805</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_STATICPLUGIN;QT_CORE_LIB;QT_NETWORK_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_SERIALPORT_LIB;QT_OPENGL_LIB;STELLARIUM_MAJOR=0;STELLARIUM_MINOR=15;STELLARIUM_PATCH=1;PACKAGE_VERSION="0.15.1";COPYRIGHT_YEARS="2000-2016";STELLARIUM_RELEASE_BUILD;QT_NO_DEBUG;NDEBUG;_USE_MATH_DEFINES;NOMINMAX;_WINSOCKAPI_;_CRT_SECURE_NO_WARNINGS;ENABLE_NLS;ENABLE_SPOUT;ENABLE_SCRIPT_CONSOLE;ENABLE_MEDIA;INSTALL_DATADIR=".";INSTALL_LOCALEDIR="./locale";QT_PLUGIN;QT_DLL;_REENTRANT;TELESCOPE_CONTROL_VERSION="0.2.11";DEBUG3;DEBUG4;DEBUG5;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_STATICPLUGIN;QT_CORE_LIB;QT_NETWORK_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_SERIALPORT_LIB;QT_OPENGL_LIB;STELLARIUM_MAJOR=0;STELLARIUM_MINOR=15;STELLARIUM_PATCH=1;PACKAGE_VERSION=\"0.15.1\";COPYRIGHT_YEARS=\"2000-2016\";STELLARIUM_RELEASE_BUILD;QT_NO_DEBUG;NDEBUG;_USE_MATH_DEFINES;NOMINMAX;_WINSOCKAPI_;_CRT_SECURE_NO_WARNINGS;ENABLE_NLS;ENABLE_SPOUT;ENABLE_SCRIPT_CONSOLE;ENABLE_MEDIA;INSTALL_DATADIR=\".\";INSTALL_LOCALEDIR=\"./locale\";QT_PLUGIN;QT_DLL;_REENTRANT;TELESCOPE_CONTROL_VERSION=\"0.2.11\";DEBUG3;DEBUG4;DEBUG5;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src;C:\Qt5\5.5\msvc2013\include;C:\Qt5\5.5\msvc2013\include\QtScript;C:\Qt5\5.5\msvc2013\include\QtCore;C:\Qt5\5.5\msvc2013\.\mkspecs\win32-msvc2013;C:\Qt5\5.5\msvc2013\include\QtMultimedia;C:\Qt5\5.5\msvc2013\include\QtNetwork;C:\Qt5\5.5\msvc2013\include\QtGui;C:\Qt5\5.5\msvc2013\include\QtMultimediaWidgets;C:\Qt5\5.5\msvc2013\include\QtWidgets;C:\Qt5\5.5\msvc2013\include\QtTest;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\modules;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\planetsephems;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\qtcompress;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\qcustomplot;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\glues_stel\source;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\glues_stel\source\libtess;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\gui;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\scripting;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\src;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\zlib;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\.;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\gui;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\clients;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\servers;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\gui;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\servers;C:\Qt5\5.5\msvc2013\include\QtSerialPort;C:\Qt5\5.5\msvc2013\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src;C:\Qt5\5.5\msvc2013\include;C:\Qt5\5.5\msvc2013\include\QtScript;C:\Qt5\5.5\msvc2013\include\QtCore;C:\Qt5\5.5\msvc2013\.\mkspecs\win32-msvc2013;C:\Qt5\5.5\msvc2013\include\QtMultimedia;C:\Qt5\5.5\msvc2013\include\QtNetwork;C:\Qt5\5.5\msvc2013\include\QtGui;C:\Qt5\5.5\msvc2013\include\QtMultimediaWidgets;C:\Qt5\5.5\msvc2013\include\QtWidgets;C:\Qt5\5.5\msvc2013\include\QtTest;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\modules;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\planetsephems;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\qtcompress;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\qcustomplot;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\glues_stel\source;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\glues_stel\source\libtess;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\gui;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\scripting;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\src;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\zlib;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\.;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\gui;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\clients;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\servers;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\gui;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\servers;C:\Qt5\5.5\msvc2013\include\QtSerialPort;C:\Qt5\5.5\msvc2013\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic moc for target TelescopeControl-static</Message>
+      <Command>setlocal
+cd C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/builds/msvc2013/plugins/TelescopeControl/src/CMakeFiles/TelescopeControl-static_automoc.dir/ Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Lib>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src;C:\Qt5\5.5\msvc2013\include;C:\Qt5\5.5\msvc2013\include\QtScript;C:\Qt5\5.5\msvc2013\include\QtCore;C:\Qt5\5.5\msvc2013\.\mkspecs\win32-msvc2013;C:\Qt5\5.5\msvc2013\include\QtMultimedia;C:\Qt5\5.5\msvc2013\include\QtNetwork;C:\Qt5\5.5\msvc2013\include\QtGui;C:\Qt5\5.5\msvc2013\include\QtMultimediaWidgets;C:\Qt5\5.5\msvc2013\include\QtWidgets;C:\Qt5\5.5\msvc2013\include\QtTest;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\modules;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\planetsephems;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\qtcompress;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\qcustomplot;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\glues_stel\source;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\glues_stel\source\libtess;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\gui;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\scripting;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\src;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\zlib;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\.;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\gui;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\clients;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\servers;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\gui;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\servers;C:\Qt5\5.5\msvc2013\include\QtSerialPort;C:\Qt5\5.5\msvc2013\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4244;4005;4101;4996;4305;4805</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_STATICPLUGIN;QT_CORE_LIB;QT_NETWORK_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_SERIALPORT_LIB;QT_OPENGL_LIB;STELLARIUM_MAJOR=0;STELLARIUM_MINOR=15;STELLARIUM_PATCH=1;PACKAGE_VERSION="0.15.1";COPYRIGHT_YEARS="2000-2016";STELLARIUM_RELEASE_BUILD;QT_NO_DEBUG;NDEBUG;_USE_MATH_DEFINES;NOMINMAX;_WINSOCKAPI_;_CRT_SECURE_NO_WARNINGS;ENABLE_NLS;ENABLE_SPOUT;ENABLE_SCRIPT_CONSOLE;ENABLE_MEDIA;INSTALL_DATADIR=".";INSTALL_LOCALEDIR="./locale";QT_PLUGIN;QT_DLL;_REENTRANT;TELESCOPE_CONTROL_VERSION="0.2.11";DEBUG3;DEBUG4;DEBUG5;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_STATICPLUGIN;QT_CORE_LIB;QT_NETWORK_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_SERIALPORT_LIB;QT_OPENGL_LIB;STELLARIUM_MAJOR=0;STELLARIUM_MINOR=15;STELLARIUM_PATCH=1;PACKAGE_VERSION=\"0.15.1\";COPYRIGHT_YEARS=\"2000-2016\";STELLARIUM_RELEASE_BUILD;QT_NO_DEBUG;NDEBUG;_USE_MATH_DEFINES;NOMINMAX;_WINSOCKAPI_;_CRT_SECURE_NO_WARNINGS;ENABLE_NLS;ENABLE_SPOUT;ENABLE_SCRIPT_CONSOLE;ENABLE_MEDIA;INSTALL_DATADIR=\".\";INSTALL_LOCALEDIR=\"./locale\";QT_PLUGIN;QT_DLL;_REENTRANT;TELESCOPE_CONTROL_VERSION=\"0.2.11\";DEBUG3;DEBUG4;DEBUG5;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src;C:\Qt5\5.5\msvc2013\include;C:\Qt5\5.5\msvc2013\include\QtScript;C:\Qt5\5.5\msvc2013\include\QtCore;C:\Qt5\5.5\msvc2013\.\mkspecs\win32-msvc2013;C:\Qt5\5.5\msvc2013\include\QtMultimedia;C:\Qt5\5.5\msvc2013\include\QtNetwork;C:\Qt5\5.5\msvc2013\include\QtGui;C:\Qt5\5.5\msvc2013\include\QtMultimediaWidgets;C:\Qt5\5.5\msvc2013\include\QtWidgets;C:\Qt5\5.5\msvc2013\include\QtTest;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\modules;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\planetsephems;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\qtcompress;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\qcustomplot;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\glues_stel\source;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\glues_stel\source\libtess;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\gui;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\scripting;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\src;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\zlib;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\.;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\gui;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\clients;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\servers;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\gui;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\servers;C:\Qt5\5.5\msvc2013\include\QtSerialPort;C:\Qt5\5.5\msvc2013\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src;C:\Qt5\5.5\msvc2013\include;C:\Qt5\5.5\msvc2013\include\QtScript;C:\Qt5\5.5\msvc2013\include\QtCore;C:\Qt5\5.5\msvc2013\.\mkspecs\win32-msvc2013;C:\Qt5\5.5\msvc2013\include\QtMultimedia;C:\Qt5\5.5\msvc2013\include\QtNetwork;C:\Qt5\5.5\msvc2013\include\QtGui;C:\Qt5\5.5\msvc2013\include\QtMultimediaWidgets;C:\Qt5\5.5\msvc2013\include\QtWidgets;C:\Qt5\5.5\msvc2013\include\QtTest;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\modules;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\planetsephems;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\qtcompress;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\qcustomplot;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\glues_stel\source;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\glues_stel\source\libtess;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\gui;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\scripting;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\src;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\zlib;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\.;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\gui;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\clients;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\servers;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\gui;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\servers;C:\Qt5\5.5\msvc2013\include\QtSerialPort;C:\Qt5\5.5\msvc2013\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic moc for target TelescopeControl-static</Message>
+      <Command>setlocal
+cd C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/builds/msvc2013/plugins/TelescopeControl/src/CMakeFiles/TelescopeControl-static_automoc.dir/ MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Lib>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src;C:\Qt5\5.5\msvc2013\include;C:\Qt5\5.5\msvc2013\include\QtScript;C:\Qt5\5.5\msvc2013\include\QtCore;C:\Qt5\5.5\msvc2013\.\mkspecs\win32-msvc2013;C:\Qt5\5.5\msvc2013\include\QtMultimedia;C:\Qt5\5.5\msvc2013\include\QtNetwork;C:\Qt5\5.5\msvc2013\include\QtGui;C:\Qt5\5.5\msvc2013\include\QtMultimediaWidgets;C:\Qt5\5.5\msvc2013\include\QtWidgets;C:\Qt5\5.5\msvc2013\include\QtTest;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\modules;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\planetsephems;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\qtcompress;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\qcustomplot;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\glues_stel\source;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\glues_stel\source\libtess;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\gui;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\scripting;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\src;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\zlib;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\.;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\gui;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\clients;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\servers;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\gui;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\servers;C:\Qt5\5.5\msvc2013\include\QtSerialPort;C:\Qt5\5.5\msvc2013\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4244;4005;4101;4996;4305;4805</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_STATICPLUGIN;QT_CORE_LIB;QT_NETWORK_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_SERIALPORT_LIB;QT_OPENGL_LIB;STELLARIUM_MAJOR=0;STELLARIUM_MINOR=15;STELLARIUM_PATCH=1;PACKAGE_VERSION="0.15.1";COPYRIGHT_YEARS="2000-2016";STELLARIUM_RELEASE_BUILD;QT_NO_DEBUG;NDEBUG;_USE_MATH_DEFINES;NOMINMAX;_WINSOCKAPI_;_CRT_SECURE_NO_WARNINGS;ENABLE_NLS;ENABLE_SPOUT;ENABLE_SCRIPT_CONSOLE;ENABLE_MEDIA;INSTALL_DATADIR=".";INSTALL_LOCALEDIR="./locale";QT_PLUGIN;QT_DLL;_REENTRANT;TELESCOPE_CONTROL_VERSION="0.2.11";DEBUG3;DEBUG4;DEBUG5;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_STATICPLUGIN;QT_CORE_LIB;QT_NETWORK_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_SERIALPORT_LIB;QT_OPENGL_LIB;STELLARIUM_MAJOR=0;STELLARIUM_MINOR=15;STELLARIUM_PATCH=1;PACKAGE_VERSION=\"0.15.1\";COPYRIGHT_YEARS=\"2000-2016\";STELLARIUM_RELEASE_BUILD;QT_NO_DEBUG;NDEBUG;_USE_MATH_DEFINES;NOMINMAX;_WINSOCKAPI_;_CRT_SECURE_NO_WARNINGS;ENABLE_NLS;ENABLE_SPOUT;ENABLE_SCRIPT_CONSOLE;ENABLE_MEDIA;INSTALL_DATADIR=\".\";INSTALL_LOCALEDIR=\"./locale\";QT_PLUGIN;QT_DLL;_REENTRANT;TELESCOPE_CONTROL_VERSION=\"0.2.11\";DEBUG3;DEBUG4;DEBUG5;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src;C:\Qt5\5.5\msvc2013\include;C:\Qt5\5.5\msvc2013\include\QtScript;C:\Qt5\5.5\msvc2013\include\QtCore;C:\Qt5\5.5\msvc2013\.\mkspecs\win32-msvc2013;C:\Qt5\5.5\msvc2013\include\QtMultimedia;C:\Qt5\5.5\msvc2013\include\QtNetwork;C:\Qt5\5.5\msvc2013\include\QtGui;C:\Qt5\5.5\msvc2013\include\QtMultimediaWidgets;C:\Qt5\5.5\msvc2013\include\QtWidgets;C:\Qt5\5.5\msvc2013\include\QtTest;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\modules;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\planetsephems;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\qtcompress;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\qcustomplot;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\glues_stel\source;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\glues_stel\source\libtess;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\gui;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\scripting;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\src;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\zlib;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\.;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\gui;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\clients;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\servers;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\gui;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\servers;C:\Qt5\5.5\msvc2013\include\QtSerialPort;C:\Qt5\5.5\msvc2013\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src;C:\Qt5\5.5\msvc2013\include;C:\Qt5\5.5\msvc2013\include\QtScript;C:\Qt5\5.5\msvc2013\include\QtCore;C:\Qt5\5.5\msvc2013\.\mkspecs\win32-msvc2013;C:\Qt5\5.5\msvc2013\include\QtMultimedia;C:\Qt5\5.5\msvc2013\include\QtNetwork;C:\Qt5\5.5\msvc2013\include\QtGui;C:\Qt5\5.5\msvc2013\include\QtMultimediaWidgets;C:\Qt5\5.5\msvc2013\include\QtWidgets;C:\Qt5\5.5\msvc2013\include\QtTest;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\modules;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\planetsephems;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\qtcompress;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\qcustomplot;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\glues_stel\source;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\glues_stel\source\libtess;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\gui;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\scripting;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\src;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\zlib;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\.;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\gui;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\clients;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\servers;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\gui;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\servers;C:\Qt5\5.5\msvc2013\include\QtSerialPort;C:\Qt5\5.5\msvc2013\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic moc for target TelescopeControl-static</Message>
+      <Command>setlocal
+cd C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/builds/msvc2013/plugins/TelescopeControl/src/CMakeFiles/TelescopeControl-static_automoc.dir/ RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Lib>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/plugins/TelescopeControl/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1 -BC:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/builds/msvc2013 --check-stamp-file C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/plugins/TelescopeControl/src/CMakeLists.txt;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\CMakeLists.txt;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\resources\TelescopeControl.qrc;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/plugins/TelescopeControl/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1 -BC:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/builds/msvc2013 --check-stamp-file C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/plugins/TelescopeControl/src/CMakeLists.txt;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\CMakeLists.txt;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\resources\TelescopeControl.qrc;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/plugins/TelescopeControl/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1 -BC:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/builds/msvc2013 --check-stamp-file C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/plugins/TelescopeControl/src/CMakeLists.txt;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\CMakeLists.txt;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\resources\TelescopeControl.qrc;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/plugins/TelescopeControl/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1 -BC:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/builds/msvc2013 --check-stamp-file C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/plugins/TelescopeControl/src/CMakeLists.txt;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\CMakeLists.txt;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\resources\TelescopeControl.qrc;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\resources\TelescopeControl.qrc">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating qrc_TelescopeControl.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Qt5\5.5\msvc2013\bin\rcc.exe --name TelescopeControl --output C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/builds/msvc2013/plugins/TelescopeControl/src/qrc_TelescopeControl.cpp C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/plugins/TelescopeControl/resources/TelescopeControl.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/plugins/TelescopeControl/resources/TelescopeControl.qrc;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\resources\button_Slew_Dialog_on.png;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\resources\button_Slew_Dialog_off.png;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\resources\telescope_reticle.png;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\resources\device_models.json;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\resources\TelescopeControl.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\qrc_TelescopeControl.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating qrc_TelescopeControl.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Qt5\5.5\msvc2013\bin\rcc.exe --name TelescopeControl --output C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/builds/msvc2013/plugins/TelescopeControl/src/qrc_TelescopeControl.cpp C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/plugins/TelescopeControl/resources/TelescopeControl.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/plugins/TelescopeControl/resources/TelescopeControl.qrc;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\resources\button_Slew_Dialog_on.png;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\resources\button_Slew_Dialog_off.png;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\resources\telescope_reticle.png;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\resources\device_models.json;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\resources\TelescopeControl.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\qrc_TelescopeControl.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating qrc_TelescopeControl.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Qt5\5.5\msvc2013\bin\rcc.exe --name TelescopeControl --output C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/builds/msvc2013/plugins/TelescopeControl/src/qrc_TelescopeControl.cpp C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/plugins/TelescopeControl/resources/TelescopeControl.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/plugins/TelescopeControl/resources/TelescopeControl.qrc;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\resources\button_Slew_Dialog_on.png;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\resources\button_Slew_Dialog_off.png;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\resources\telescope_reticle.png;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\resources\device_models.json;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\resources\TelescopeControl.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\qrc_TelescopeControl.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating qrc_TelescopeControl.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Qt5\5.5\msvc2013\bin\rcc.exe --name TelescopeControl --output C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/builds/msvc2013/plugins/TelescopeControl/src/qrc_TelescopeControl.cpp C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/plugins/TelescopeControl/resources/TelescopeControl.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/plugins/TelescopeControl/resources/TelescopeControl.qrc;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\resources\button_Slew_Dialog_on.png;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\resources\button_Slew_Dialog_off.png;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\resources\telescope_reticle.png;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\resources\device_models.json;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\resources\TelescopeControl.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\qrc_TelescopeControl.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\gui\slewDialog.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ui_slewDialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Qt5\5.5\msvc2013\bin\uic.exe -o C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/builds/msvc2013/plugins/TelescopeControl/src/ui_slewDialog.h C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/plugins/TelescopeControl/src/gui/slewDialog.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/plugins/TelescopeControl/src/gui/slewDialog.ui;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\gui\slewDialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\ui_slewDialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ui_slewDialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Qt5\5.5\msvc2013\bin\uic.exe -o C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/builds/msvc2013/plugins/TelescopeControl/src/ui_slewDialog.h C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/plugins/TelescopeControl/src/gui/slewDialog.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/plugins/TelescopeControl/src/gui/slewDialog.ui;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\gui\slewDialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\ui_slewDialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ui_slewDialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Qt5\5.5\msvc2013\bin\uic.exe -o C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/builds/msvc2013/plugins/TelescopeControl/src/ui_slewDialog.h C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/plugins/TelescopeControl/src/gui/slewDialog.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/plugins/TelescopeControl/src/gui/slewDialog.ui;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\gui\slewDialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\ui_slewDialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ui_slewDialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Qt5\5.5\msvc2013\bin\uic.exe -o C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/builds/msvc2013/plugins/TelescopeControl/src/ui_slewDialog.h C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/plugins/TelescopeControl/src/gui/slewDialog.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/plugins/TelescopeControl/src/gui/slewDialog.ui;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\gui\slewDialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\ui_slewDialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\gui\telescopeDialog.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ui_telescopeDialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Qt5\5.5\msvc2013\bin\uic.exe -o C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/builds/msvc2013/plugins/TelescopeControl/src/ui_telescopeDialog.h C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/plugins/TelescopeControl/src/gui/telescopeDialog.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/plugins/TelescopeControl/src/gui/telescopeDialog.ui;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\gui\telescopeDialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\ui_telescopeDialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ui_telescopeDialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Qt5\5.5\msvc2013\bin\uic.exe -o C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/builds/msvc2013/plugins/TelescopeControl/src/ui_telescopeDialog.h C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/plugins/TelescopeControl/src/gui/telescopeDialog.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/plugins/TelescopeControl/src/gui/telescopeDialog.ui;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\gui\telescopeDialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\ui_telescopeDialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ui_telescopeDialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Qt5\5.5\msvc2013\bin\uic.exe -o C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/builds/msvc2013/plugins/TelescopeControl/src/ui_telescopeDialog.h C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/plugins/TelescopeControl/src/gui/telescopeDialog.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/plugins/TelescopeControl/src/gui/telescopeDialog.ui;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\gui\telescopeDialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\ui_telescopeDialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ui_telescopeDialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Qt5\5.5\msvc2013\bin\uic.exe -o C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/builds/msvc2013/plugins/TelescopeControl/src/ui_telescopeDialog.h C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/plugins/TelescopeControl/src/gui/telescopeDialog.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/plugins/TelescopeControl/src/gui/telescopeDialog.ui;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\gui\telescopeDialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\ui_telescopeDialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\gui\telescopeConfigurationDialog.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ui_telescopeConfigurationDialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Qt5\5.5\msvc2013\bin\uic.exe -o C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/builds/msvc2013/plugins/TelescopeControl/src/ui_telescopeConfigurationDialog.h C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/plugins/TelescopeControl/src/gui/telescopeConfigurationDialog.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/plugins/TelescopeControl/src/gui/telescopeConfigurationDialog.ui;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\gui\telescopeConfigurationDialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\ui_telescopeConfigurationDialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ui_telescopeConfigurationDialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Qt5\5.5\msvc2013\bin\uic.exe -o C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/builds/msvc2013/plugins/TelescopeControl/src/ui_telescopeConfigurationDialog.h C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/plugins/TelescopeControl/src/gui/telescopeConfigurationDialog.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/plugins/TelescopeControl/src/gui/telescopeConfigurationDialog.ui;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\gui\telescopeConfigurationDialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\ui_telescopeConfigurationDialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ui_telescopeConfigurationDialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Qt5\5.5\msvc2013\bin\uic.exe -o C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/builds/msvc2013/plugins/TelescopeControl/src/ui_telescopeConfigurationDialog.h C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/plugins/TelescopeControl/src/gui/telescopeConfigurationDialog.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/plugins/TelescopeControl/src/gui/telescopeConfigurationDialog.ui;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\gui\telescopeConfigurationDialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\ui_telescopeConfigurationDialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ui_telescopeConfigurationDialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Qt5\5.5\msvc2013\bin\uic.exe -o C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/builds/msvc2013/plugins/TelescopeControl/src/ui_telescopeConfigurationDialog.h C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/plugins/TelescopeControl/src/gui/telescopeConfigurationDialog.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/plugins/TelescopeControl/src/gui/telescopeConfigurationDialog.ui;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\gui\telescopeConfigurationDialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\ui_telescopeConfigurationDialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\gui\storedPointsDialog.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ui_storedPointsDialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Qt5\5.5\msvc2013\bin\uic.exe -o C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/builds/msvc2013/plugins/TelescopeControl/src/ui_storedPointsDialog.h C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/plugins/TelescopeControl/src/gui/storedPointsDialog.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/plugins/TelescopeControl/src/gui/storedPointsDialog.ui;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\gui\storedPointsDialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\ui_storedPointsDialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ui_storedPointsDialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Qt5\5.5\msvc2013\bin\uic.exe -o C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/builds/msvc2013/plugins/TelescopeControl/src/ui_storedPointsDialog.h C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/plugins/TelescopeControl/src/gui/storedPointsDialog.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/plugins/TelescopeControl/src/gui/storedPointsDialog.ui;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\gui\storedPointsDialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\ui_storedPointsDialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ui_storedPointsDialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Qt5\5.5\msvc2013\bin\uic.exe -o C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/builds/msvc2013/plugins/TelescopeControl/src/ui_storedPointsDialog.h C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/plugins/TelescopeControl/src/gui/storedPointsDialog.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/plugins/TelescopeControl/src/gui/storedPointsDialog.ui;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\gui\storedPointsDialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\ui_storedPointsDialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ui_storedPointsDialog.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Qt5\5.5\msvc2013\bin\uic.exe -o C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/builds/msvc2013/plugins/TelescopeControl/src/ui_storedPointsDialog.h C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/plugins/TelescopeControl/src/gui/storedPointsDialog.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/plugins/TelescopeControl/src/gui/storedPointsDialog.ui;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\gui\storedPointsDialog.ui;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\ui_storedPointsDialog.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\TelescopeControlGlobals.hpp" />
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\clients\InterpolatedPosition.hpp" />
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\clients\TelescopeClient.hpp" />
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\clients\TelescopeClientDirectLx200.hpp" />
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\clients\TelescopeClientDirectNexStar.hpp" />
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\TelescopeControl.hpp" />
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\gui\SlewDialog.hpp" />
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\gui\TelescopeDialog.hpp" />
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\gui\TelescopeConfigurationDialog.hpp" />
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\gui\StoredPointsDialog.hpp" />
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\servers\LogFile.hpp" />
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\servers\Socket.hpp" />
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\servers\Server.hpp" />
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\servers\Connection.hpp" />
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\servers\SerialPort.hpp" />
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\servers\Lx200Connection.hpp" />
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\servers\Lx200Command.hpp" />
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\servers\NexStarConnection.hpp" />
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\servers\NexStarCommand.hpp" />
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\ui_slewDialog.h" />
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\ui_telescopeDialog.h" />
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\ui_telescopeConfigurationDialog.h" />
+    <ClInclude Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\ui_storedPointsDialog.h" />
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\clients\InterpolatedPosition.cpp"  />
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\clients\TelescopeClient.cpp"  />
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\clients\TelescopeClientDirectLx200.cpp"  />
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\clients\TelescopeClientDirectNexStar.cpp"  />
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\TelescopeControl.cpp"  />
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\gui\SlewDialog.cpp"  />
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\gui\TelescopeDialog.cpp"  />
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\gui\TelescopeConfigurationDialog.cpp"  />
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\gui\StoredPointsDialog.cpp"  />
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\servers\LogFile.cpp"  />
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\servers\Socket.cpp"  />
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\servers\Server.cpp"  />
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\servers\Connection.cpp"  />
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\servers\SerialPort.cpp"  />
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\servers\Lx200Connection.cpp"  />
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\servers\Lx200Command.cpp"  />
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\servers\NexStarConnection.cpp"  />
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\servers\NexStarCommand.cpp"  />
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\qrc_TelescopeControl.cpp"  />
+    <ClCompile Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\TelescopeControl-static_automoc.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/builds/msvc2013/ZERO_CHECK.vcxproj">
+      <Project>E9A428B8-9D67-333C-9699-0498111655F7</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

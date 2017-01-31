@@ -1,0 +1,37 @@
+﻿Build started 1/25/2017 3:36:32 PM.
+     1>Project "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TextUserInterface\src\TextUserInterface-static.vcxproj" on node 5 (Build target(s)).
+     1>PreBuildEvent:
+         setlocal
+         cd C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TextUserInterface\src
+         if %errorlevel% neq 0 goto :cmEnd
+         C:
+         if %errorlevel% neq 0 goto :cmEnd
+         "C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/builds/msvc2013/plugins/TextUserInterface/src/CMakeFiles/TextUserInterface-static_automoc.dir/ Release
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\x64\Release\TextUserInterface.lib" /NOLOGO /MACHINE:X64  x64\Release\DummyDialog.obj
+         x64\Release\TuiNode.obj
+         x64\Release\TuiNodeActivate.obj
+         x64\Release\TuiNodeEditable.obj
+         x64\Release\TuiNodeBool.obj
+         x64\Release\TuiNodeInt.obj
+         x64\Release\TuiNodeDouble.obj
+         x64\Release\TuiNodeFloat.obj
+         x64\Release\TuiNodeDateTime.obj
+         x64\Release\TuiNodeColor.obj
+         x64\Release\TuiNodeEnum.obj
+         x64\Release\TextUserInterface.obj
+         "x64\Release\TextUserInterface-static_automoc.obj"
+         TextUserInterface-static.vcxproj -> C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\x64\Release\TextUserInterface.lib
+     1>Done Building Project "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TextUserInterface\src\TextUserInterface-static.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.30

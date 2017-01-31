@@ -1,0 +1,42 @@
+﻿Build started 1/26/2017 11:24:26 AM.
+     1>Project "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\Quasars\src\Quasars-static.vcxproj" on node 4 (Build target(s)).
+     1>PreBuildEvent:
+         setlocal
+         cd C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\Quasars\src
+         if %errorlevel% neq 0 goto :cmEnd
+         C:
+         if %errorlevel% neq 0 goto :cmEnd
+         "C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/builds/msvc2013/plugins/Quasars/src/CMakeFiles/Quasars-static_automoc.dir/ Release
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+       CustomBuild:
+         Building Custom Rule C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/plugins/Quasars/src/CMakeLists.txt
+         CMake does not need to re-run because C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\Quasars\src\CMakeFiles\generate.stamp is up-to-date.
+         Generating qrc_Quasars.cpp
+         Generating ui_quasarsDialog.h
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\Quasars\src" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Quasars\src" /IC:\Qt5\5.5\msvc2013\include /IC:\Qt5\5.5\msvc2013\include\QtScript /IC:\Qt5\5.5\msvc2013\include\QtCore /I"C:\Qt5\5.5\msvc2013\.\mkspecs\win32-msvc2013" /IC:\Qt5\5.5\msvc2013\include\QtMultimedia /IC:\Qt5\5.5\msvc2013\include\QtNetwork /IC:\Qt5\5.5\msvc2013\include\QtGui /IC:\Qt5\5.5\msvc2013\include\QtMultimediaWidgets /IC:\Qt5\5.5\msvc2013\include\QtWidgets /IC:\Qt5\5.5\msvc2013\include\QtTest /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\modules" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\planetsephems" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\qtcompress" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\qcustomplot" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\glues_stel\source" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\glues_stel\source\libtess" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\gui" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\scripting" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\src" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\zlib" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Quasars\src\." /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Quasars\src\gui" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\Quasars\src\gui" /nologo /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D QT_STATICPLUGIN /D QT_CORE_LIB /D QT_NETWORK_LIB /D QT_WIDGETS_LIB /D QT_GUI_LIB /D STELLARIUM_MAJOR=0 /D STELLARIUM_MINOR=15 /D STELLARIUM_PATCH=1 /D "PACKAGE_VERSION=\"0.15.1\"" /D "COPYRIGHT_YEARS=\"2000-2016\"" /D STELLARIUM_RELEASE_BUILD /D QT_NO_DEBUG /D NDEBUG /D _USE_MATH_DEFINES /D NOMINMAX /D _WINSOCKAPI_ /D _CRT_SECURE_NO_WARNINGS /D ENABLE_NLS /D ENABLE_SPOUT /D ENABLE_SCRIPT_CONSOLE /D ENABLE_MEDIA /D "INSTALL_DATADIR=\".\"" /D "INSTALL_LOCALEDIR=\"./locale\"" /D QT_PLUGIN /D QT_DLL /D _REENTRANT /D "QUASARS_PLUGIN_VERSION=\"0.1.15\"" /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Quasars-static.dir\Release\\" /Fd"Quasars-static.dir\Release\vc120.pdb" /Gd /TP /wd4244 /wd4005 /wd4101 /wd4996 /wd4305 /wd4805 /analyze- /errorReport:prompt "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Quasars\src\Quasars.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Quasars\src\Quasar.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Quasars\src\gui\QuasarsDialog.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\Quasars\src\qrc_Quasars.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\Quasars\src\Quasars-static_automoc.cpp"
+         Quasars.cpp
+         Quasar.cpp
+         QuasarsDialog.cpp
+         qrc_Quasars.cpp
+         Quasars-static_automoc.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\Quasars\src\Release\Quasars.lib" /NOLOGO  /machine:X86 "Quasars-static.dir\Release\Quasars.obj"
+         "Quasars-static.dir\Release\Quasar.obj"
+         "Quasars-static.dir\Release\QuasarsDialog.obj"
+         "Quasars-static.dir\Release\qrc_Quasars.obj"
+         "Quasars-static.dir\Release\Quasars-static_automoc.obj"
+         Quasars-static.vcxproj -> C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\Quasars\src\Release\Quasars.lib
+     1>Done Building Project "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\Quasars\src\Quasars-static.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.96

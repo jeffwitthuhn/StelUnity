@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/plugins/RemoteControl/CMakeLists.txt
+C:/Program Files/CMake/share/cmake-3.7/Modules/FindPythonInterp.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.7/Modules/CMakeParseArguments.cmake

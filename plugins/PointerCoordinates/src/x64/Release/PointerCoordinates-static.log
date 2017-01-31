@@ -1,0 +1,28 @@
+﻿Build started 1/25/2017 3:35:34 PM.
+     1>Project "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\PointerCoordinates\src\PointerCoordinates-static.vcxproj" on node 8 (Build target(s)).
+     1>PreBuildEvent:
+         setlocal
+         cd C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\PointerCoordinates\src
+         if %errorlevel% neq 0 goto :cmEnd
+         C:
+         if %errorlevel% neq 0 goto :cmEnd
+         "C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/builds/msvc2013/plugins/PointerCoordinates/src/CMakeFiles/PointerCoordinates-static_automoc.dir/ Release
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\x64\Release\PointerCoordinates.lib" /NOLOGO /MACHINE:X64  x64\Release\PointerCoordinates.obj
+         x64\Release\PointerCoordinatesWindow.obj
+         x64\Release\qrc_PointerCoordinates.obj
+         "x64\Release\PointerCoordinates-static_automoc.obj"
+         PointerCoordinates-static.vcxproj -> C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\x64\Release\PointerCoordinates.lib
+     1>Done Building Project "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\PointerCoordinates\src\PointerCoordinates-static.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.39

@@ -1,0 +1,67 @@
+﻿Build started 1/25/2017 3:56:30 PM.
+     1>Project "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\Satellites\src\Satellites-static.vcxproj" on node 8 (Build target(s)).
+     1>PreBuildEvent:
+         setlocal
+         cd C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\Satellites\src
+         if %errorlevel% neq 0 goto :cmEnd
+         C:
+         if %errorlevel% neq 0 goto :cmEnd
+         "C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/builds/msvc2013/plugins/Satellites/src/CMakeFiles/Satellites-static_automoc.dir/ Debug
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+       CustomBuild:
+         Building Custom Rule C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/plugins/Satellites/src/CMakeLists.txt
+         CMake does not need to re-run because C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\Satellites\src\CMakeFiles\generate.stamp is up-to-date.
+         Generating qrc_Satellites.cpp
+         Generating ui_satellitesDialog.h
+         Generating ui_satellitesImportDialog.h
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\Satellites\src" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Satellites\src" /IC:\Qt5\5.5\msvc2013_64\include /IC:\Qt5\5.5\msvc2013_64\include\QtScript /IC:\Qt5\5.5\msvc2013_64\include\QtCore /I"C:\Qt5\5.5\msvc2013_64\.\mkspecs\win32-msvc2013" /IC:\Qt5\5.5\msvc2013_64\include\QtMultimedia /IC:\Qt5\5.5\msvc2013_64\include\QtNetwork /IC:\Qt5\5.5\msvc2013_64\include\QtGui /IC:\Qt5\5.5\msvc2013_64\include\QtMultimediaWidgets /IC:\Qt5\5.5\msvc2013_64\include\QtWidgets /IC:\Qt5\5.5\msvc2013_64\include\QtTest /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\modules" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\planetsephems" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\qtcompress" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\qcustomplot" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\glues_stel\source" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\glues_stel\source\libtess" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\gui" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\scripting" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\src" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\zlib" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Satellites\src\." /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Satellites\src\gsatellite" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Satellites\src\gui" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\Satellites\src\gui" /IC:\Qt5\5.5\msvc2013_64\include\QtOpenGL /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D QT_STATICPLUGIN /D QT_CORE_LIB /D QT_NETWORK_LIB /D QT_OPENGL_LIB /D QT_WIDGETS_LIB /D QT_GUI_LIB /D STELLARIUM_MAJOR=0 /D STELLARIUM_MINOR=15 /D STELLARIUM_PATCH=1 /D "PACKAGE_VERSION=\"0.15.1\"" /D "COPYRIGHT_YEARS=\"2000-2016\"" /D STELLARIUM_RELEASE_BUILD /D QT_NO_DEBUG /D NDEBUG /D _USE_MATH_DEFINES /D NOMINMAX /D _WINSOCKAPI_ /D _CRT_SECURE_NO_WARNINGS /D ENABLE_NLS /D ENABLE_SPOUT /D ENABLE_SCRIPT_CONSOLE /D ENABLE_MEDIA /D "INSTALL_DATADIR=\".\"" /D "INSTALL_LOCALEDIR=\"./locale\"" /D QT_PLUGIN /D QT_DLL /D _REENTRANT /D "SATELLITES_PLUGIN_VERSION=\"0.10.6\"" /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /wd4244 /wd4005 /wd4101 /wd4996 /wd4305 /wd4805 /errorReport:prompt "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Satellites\src\gsatellite\gSatTEME.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Satellites\src\gsatellite\mathUtils.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Satellites\src\gsatellite\gTime.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Satellites\src\gsatellite\gTimeSpan.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Satellites\src\gsatellite\gVector.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Satellites\src\gsatellite\sgp4ext.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Satellites\src\gsatellite\sgp4io.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Satellites\src\gsatellite\sgp4unit.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Satellites\src\gSatWrapper.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Satellites\src\Satellite.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Satellites\src\Satellites.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Satellites\src\SatellitesListModel.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Satellites\src\SatellitesListFilterModel.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Satellites\src\gui\SatellitesDialog.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\Satellites\src\gui\SatellitesImportDialog.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\Satellites\src\qrc_Satellites.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\Satellites\src\Satellites-static_automoc.cpp"
+         gSatTEME.cpp
+         mathUtils.cpp
+         gTime.cpp
+         gTimeSpan.cpp
+         gVector.cpp
+         sgp4ext.cpp
+         sgp4io.cpp
+         sgp4unit.cpp
+         gSatWrapper.cpp
+         Satellite.cpp
+         Satellites.cpp
+         SatellitesListModel.cpp
+         SatellitesListFilterModel.cpp
+         SatellitesDialog.cpp
+         SatellitesImportDialog.cpp
+         qrc_Satellites.cpp
+         Satellites-static_automoc.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\x64\Debug\Satellites.lib" /NOLOGO /MACHINE:X64 x64\Debug\gSatTEME.obj
+         x64\Debug\mathUtils.obj
+         x64\Debug\gTime.obj
+         x64\Debug\gTimeSpan.obj
+         x64\Debug\gVector.obj
+         x64\Debug\sgp4ext.obj
+         x64\Debug\sgp4io.obj
+         x64\Debug\sgp4unit.obj
+         x64\Debug\gSatWrapper.obj
+         x64\Debug\Satellite.obj
+         x64\Debug\Satellites.obj
+         x64\Debug\SatellitesListModel.obj
+         x64\Debug\SatellitesListFilterModel.obj
+         x64\Debug\SatellitesDialog.obj
+         x64\Debug\SatellitesImportDialog.obj
+         x64\Debug\qrc_Satellites.obj
+         "x64\Debug\Satellites-static_automoc.obj"
+         Satellites-static.vcxproj -> C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\x64\Debug\Satellites.lib
+     1>Done Building Project "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\Satellites\src\Satellites-static.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:21.84

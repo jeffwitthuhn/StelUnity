@@ -1,0 +1,197 @@
+﻿Build started 1/26/2017 12:09:17 PM.
+     1>Project "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\src\stellarium.vcxproj" on node 2 (Build target(s)).
+     1>PreBuildEvent:
+         setlocal
+         cd C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\src
+         if %errorlevel% neq 0 goto :cmEnd
+         C:
+         if %errorlevel% neq 0 goto :cmEnd
+         "C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/builds/msvc2013/src/CMakeFiles/stellarium_automoc.dir/ Debug
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\src" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src" /IC:\Qt5\5.5\msvc2013\include /IC:\Qt5\5.5\msvc2013\include\QtScript /IC:\Qt5\5.5\msvc2013\include\QtCore /I"C:\Qt5\5.5\msvc2013\.\mkspecs\win32-msvc2013" /IC:\Qt5\5.5\msvc2013\include\QtMultimedia /IC:\Qt5\5.5\msvc2013\include\QtNetwork /IC:\Qt5\5.5\msvc2013\include\QtGui /IC:\Qt5\5.5\msvc2013\include\QtMultimediaWidgets /IC:\Qt5\5.5\msvc2013\include\QtWidgets /IC:\Qt5\5.5\msvc2013\include\QtTest /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\modules" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\planetsephems" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\qtcompress" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\qcustomplot" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\glues_stel\source" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\glues_stel\source\libtess" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\gui" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\scripting" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\zlib" /IC:\Qt5\5.5\msvc2013\include\QtConcurrent /IC:\Qt5\5.5\msvc2013\include\QtOpenGL /IC:\Qt5\5.5\msvc2013\include\QtPrintSupport /IC:\Qt5\5.5\msvc2013\include\QtSerialPort /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D QT_CORE_LIB /D QT_CONCURRENT_LIB /D QT_GUI_LIB /D QT_NETWORK_LIB /D QT_OPENGL_LIB /D QT_WIDGETS_LIB /D QT_PRINTSUPPORT_LIB /D QT_MULTIMEDIA_LIB /D QT_MULTIMEDIAWIDGETS_LIB /D QT_SCRIPT_LIB /D QT_SERIALPORT_LIB /D STELLARIUM_MAJOR=0 /D STELLARIUM_MINOR=15 /D STELLARIUM_PATCH=1 /D "PACKAGE_VERSION=\"0.15.1\"" /D "COPYRIGHT_YEARS=\"2000-2016\"" /D STELLARIUM_RELEASE_BUILD /D QT_NO_DEBUG /D NDEBUG /D _USE_MATH_DEFINES /D NOMINMAX /D _WINSOCKAPI_ /D _CRT_SECURE_NO_WARNINGS /D ENABLE_NLS /D ENABLE_SPOUT /D ENABLE_SCRIPT_CONSOLE /D ENABLE_MEDIA /D "INSTALL_DATADIR=\".\"" /D "INSTALL_LOCALEDIR=\"./locale\"" /D USE_STATIC_PLUGIN_ARCHAEOLINES /D USE_STATIC_PLUGIN_COMPASSMARKS /D USE_STATIC_PLUGIN_EXOPLANETS /D USE_STATIC_PLUGIN_EQUATIONOFTIME /D USE_STATIC_PLUGIN_FOV /D USE_STATIC_PLUGIN_METEORSHOWERS /D USE_STATIC_PLUGIN_NAVSTARS /D USE_STATIC_PLUGIN_NOVAE /D USE_STATIC_PLUGIN_OBSERVABILITY /D USE_STATIC_PLUGIN_OCULARS /D USE_STATIC_PLUGIN_POINTERCOORDINATES /D USE_STATIC_PLUGIN_PULSARS /D USE_STATIC_PLUGIN_QUASARS /D USE_STATIC_PLUGIN_REMOTECONTROL /D USE_STATIC_PLUGIN_SATELLITES /D USE_STATIC_PLUGIN_SCENERY3D /D USE_STATIC_PLUGIN_SOLARSYSTEMEDITOR /D USE_STATIC_PLUGIN_SUPERNOVAE /D USE_STATIC_PLUGIN_TEXTUSERINTERFACE /D USE_STATIC_PLUGIN_TELESCOPECONTROL /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"stellarium.dir\Debug\\" /Fd"stellarium.dir\Debug\vc120.pdb" /Gd /TP /wd4244 /wd4005 /wd4101 /wd4996 /wd4305 /wd4805 /analyze- /errorReport:prompt "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\StelApp.cpp"
+         StelApp.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\src\Debug\stellarium.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\plugins\ArchaeoLines\src\Debug\ArchaeoLines.lib ..\plugins\CompassMarks\src\Debug\CompassMarks.lib ..\plugins\Exoplanets\src\Debug\Exoplanets.lib ..\plugins\EquationOfTime\src\Debug\EquationOfTime.lib ..\plugins\FOV\src\Debug\FOV.lib ..\plugins\MeteorShowers\src\Debug\MeteorShowers.lib ..\plugins\NavStars\src\Debug\NavStars.lib ..\plugins\Novae\src\Debug\Novae.lib ..\plugins\Observability\src\Debug\Observability.lib ..\plugins\Oculars\src\Debug\Oculars.lib ..\plugins\PointerCoordinates\src\Debug\PointerCoordinates.lib ..\plugins\Pulsars\src\Debug\Pulsars.lib ..\plugins\Quasars\src\Debug\Quasars.lib ..\plugins\RemoteControl\src\Debug\RemoteControl.lib ..\plugins\Satellites\src\Debug\Satellites.lib ..\plugins\Scenery3d\src\Debug\Scenery3d.lib ..\plugins\SolarSystemEditor\src\Debug\SolarSystemEditor.lib ..\plugins\Supernovae\src\Debug\Supernovae.lib ..\plugins\TextUserInterface\src\Debug\TextUserInterface.lib ..\plugins\TelescopeControl\src\Debug\TelescopeControl.lib ws2_32.lib C:\Qt5\5.5\msvc2013\lib\Qt5Concurrentd.lib C:\Qt5\5.5\msvc2013\lib\Qt5OpenGLd.lib C:\Qt5\5.5\msvc2013\lib\Qt5PrintSupportd.lib C:\Qt5\5.5\msvc2013\lib\Qt5MultimediaWidgetsd.lib C:\Qt5\5.5\msvc2013\lib\Qt5Scriptd.lib C:\Qt5\5.5\msvc2013\lib\Qt5SerialPortd.lib ..\..\..\util\spout2\Win32\SpoutLibrary.lib C:\Qt5\5.5\msvc2013\lib\Qt5Multimediad.lib C:\Qt5\5.5\msvc2013\lib\Qt5Networkd.lib C:\Qt5\5.5\msvc2013\lib\Qt5Widgetsd.lib C:\Qt5\5.5\msvc2013\lib\Qt5Guid.lib C:\Qt5\5.5\msvc2013\lib\Qt5Cored.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/builds/msvc2013/src/Debug/stellarium.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/builds/msvc2013/src/Debug/stellarium.lib" /MACHINE:X86 /SAFESEH  /machine:X86 stellarium.dir\Debug\stellarium.res
+         stellarium.dir\Debug\StelAudioMgr.obj
+         stellarium.dir\Debug\StelVideoMgr.obj
+         stellarium.dir\Debug\StelGeodesicGrid.obj
+         stellarium.dir\Debug\StelMovementMgr.obj
+         stellarium.dir\Debug\StelObserver.obj
+         stellarium.dir\Debug\StelLocation.obj
+         stellarium.dir\Debug\StelLocationMgr.obj
+         stellarium.dir\Debug\StelProjector.obj
+         stellarium.dir\Debug\StelProjectorClasses.obj
+         stellarium.dir\Debug\StelSkyDrawer.obj
+         stellarium.dir\Debug\StelPainter.obj
+         stellarium.dir\Debug\MultiLevelJsonBase.obj
+         stellarium.dir\Debug\StelSkyImageTile.obj
+         stellarium.dir\Debug\StelSkyPolygon.obj
+         stellarium.dir\Debug\SphericMirrorCalculator.obj
+         stellarium.dir\Debug\StelApp.obj
+         stellarium.dir\Debug\StelCore.obj
+         stellarium.dir\Debug\StelFileMgr.obj
+         stellarium.dir\Debug\StelLocaleMgr.obj
+         stellarium.dir\Debug\StelModule.obj
+         stellarium.dir\Debug\StelModuleMgr.obj
+         stellarium.dir\Debug\StelObject.obj
+         stellarium.dir\Debug\StelObjectMgr.obj
+         stellarium.dir\Debug\StelObjectModule.obj
+         stellarium.dir\Debug\StelOpenGL.obj
+         stellarium.dir\Debug\StelSkyCultureMgr.obj
+         stellarium.dir\Debug\StelTextureMgr.obj
+         stellarium.dir\Debug\StelTexture.obj
+         stellarium.dir\Debug\StelToneReproducer.obj
+         stellarium.dir\Debug\StelSkyLayerMgr.obj
+         stellarium.dir\Debug\StelSkyLayer.obj
+         stellarium.dir\Debug\StelSphereGeometry.obj
+         stellarium.dir\Debug\OctahedronPolygon.obj
+         stellarium.dir\Debug\StelIniParser.obj
+         stellarium.dir\Debug\StelUtils.obj
+         stellarium.dir\Debug\StelTranslator.obj
+         stellarium.dir\Debug\StelJsonParser.obj
+         stellarium.dir\Debug\SimbadSearcher.obj
+         stellarium.dir\Debug\StelSphericalIndex.obj
+         stellarium.dir\Debug\StelVertexArray.obj
+         stellarium.dir\Debug\StelGuiBase.obj
+         stellarium.dir\Debug\StelViewportEffect.obj
+         stellarium.dir\Debug\TrailGroup.obj
+         stellarium.dir\Debug\RefractionExtinction.obj
+         stellarium.dir\Debug\StelToast.obj
+         stellarium.dir\Debug\StelToastGrid.obj
+         stellarium.dir\Debug\StelActionMgr.obj
+         stellarium.dir\Debug\StelPropertyMgr.obj
+         stellarium.dir\Debug\glues_error.obj
+         stellarium.dir\Debug\dict.obj
+         stellarium.dir\Debug\geom.obj
+         stellarium.dir\Debug\memalloc.obj
+         stellarium.dir\Debug\mesh.obj
+         stellarium.dir\Debug\normal.obj
+         stellarium.dir\Debug\priorityq.obj
+         stellarium.dir\Debug\render.obj
+         stellarium.dir\Debug\sweep.obj
+         stellarium.dir\Debug\tess.obj
+         stellarium.dir\Debug\tessmono.obj
+         stellarium.dir\Debug\SpoutSender.obj
+         stellarium.dir\Debug\calc_interpolated_elements.obj
+         stellarium.dir\Debug\elliptic_to_rectangular.obj
+         stellarium.dir\Debug\elp82b.obj
+         stellarium.dir\Debug\gust86.obj
+         stellarium.dir\Debug\l1.obj
+         stellarium.dir\Debug\marssat.obj
+         stellarium.dir\Debug\pluto.obj
+         stellarium.dir\Debug\precession.obj
+         stellarium.dir\Debug\sidereal_time.obj
+         stellarium.dir\Debug\jpleph.obj
+         stellarium.dir\Debug\EphemWrapper.obj
+         stellarium.dir\Debug\tass17.obj
+         stellarium.dir\Debug\vsop87.obj
+         stellarium.dir\Debug\de430.obj
+         stellarium.dir\Debug\de431.obj
+         stellarium.dir\Debug\Atmosphere.obj
+         stellarium.dir\Debug\Constellation.obj
+         stellarium.dir\Debug\ConstellationMgr.obj
+         stellarium.dir\Debug\CustomObject.obj
+         stellarium.dir\Debug\CustomObjectMgr.obj
+         stellarium.dir\Debug\GridLinesMgr.obj
+         stellarium.dir\Debug\LabelMgr.obj
+         stellarium.dir\Debug\Landscape.obj
+         stellarium.dir\Debug\LandscapeMgr.obj
+         stellarium.dir\Debug\Meteor.obj
+         stellarium.dir\Debug\SporadicMeteor.obj
+         stellarium.dir\Debug\SporadicMeteorMgr.obj
+         stellarium.dir\Debug\MilkyWay.obj
+         stellarium.dir\Debug\Nebula.obj
+         stellarium.dir\Debug\NebulaMgr.obj
+         stellarium.dir\Debug\Orbit.obj
+         stellarium.dir\Debug\Planet.obj
+         stellarium.dir\Debug\MinorPlanet.obj
+         stellarium.dir\Debug\Comet.obj
+         stellarium.dir\Debug\Skybright.obj
+         stellarium.dir\Debug\Skylight.obj
+         stellarium.dir\Debug\SolarSystem.obj
+         stellarium.dir\Debug\Star.obj
+         stellarium.dir\Debug\StarMgr.obj
+         stellarium.dir\Debug\StarWrapper.obj
+         stellarium.dir\Debug\ToastMgr.obj
+         stellarium.dir\Debug\ZoneArray.obj
+         stellarium.dir\Debug\ZodiacalLight.obj
+         stellarium.dir\Debug\StelMainView.obj
+         stellarium.dir\Debug\StelLogger.obj
+         stellarium.dir\Debug\CLIProcessor.obj
+         stellarium.dir\Debug\qzip.obj
+         stellarium.dir\Debug\qcustomplot.obj
+         stellarium.dir\Debug\StelScriptOutput.obj
+         stellarium.dir\Debug\StelScriptMgr.obj
+         stellarium.dir\Debug\ScreenImageMgr.obj
+         stellarium.dir\Debug\StelMainScriptAPI.obj
+         stellarium.dir\Debug\StelMainScriptAPIProxy.obj
+         stellarium.dir\Debug\adler32.obj
+         stellarium.dir\Debug\compress.obj
+         stellarium.dir\Debug\crc32.obj
+         stellarium.dir\Debug\deflate.obj
+         stellarium.dir\Debug\gzclose.obj
+         stellarium.dir\Debug\gzlib.obj
+         stellarium.dir\Debug\gzread.obj
+         stellarium.dir\Debug\gzwrite.obj
+         stellarium.dir\Debug\infback.obj
+         stellarium.dir\Debug\inffast.obj
+         stellarium.dir\Debug\inflate.obj
+         stellarium.dir\Debug\inftrees.obj
+         stellarium.dir\Debug\trees.obj
+         stellarium.dir\Debug\uncompr.obj
+         stellarium.dir\Debug\zutil.obj
+         stellarium.dir\Debug\StelGui.obj
+         stellarium.dir\Debug\SkyGui.obj
+         stellarium.dir\Debug\StelGuiItems.obj
+         stellarium.dir\Debug\HelpDialog.obj
+         stellarium.dir\Debug\ShortcutLineEdit.obj
+         stellarium.dir\Debug\ShortcutsDialog.obj
+         stellarium.dir\Debug\Dialog.obj
+         stellarium.dir\Debug\MapLabel.obj
+         stellarium.dir\Debug\AngleSpinBox.obj
+         stellarium.dir\Debug\LocationDialog.obj
+         stellarium.dir\Debug\DateTimeDialog.obj
+         stellarium.dir\Debug\ViewDialog.obj
+         stellarium.dir\Debug\SearchDialog.obj
+         stellarium.dir\Debug\ConfigurationDialog.obj
+         stellarium.dir\Debug\AddRemoveLandscapesDialog.obj
+         stellarium.dir\Debug\AtmosphereDialog.obj
+         stellarium.dir\Debug\ConfigureDSOColorsDialog.obj
+         stellarium.dir\Debug\ConfigureOrbitColorsDialog.obj
+         stellarium.dir\Debug\GreatRedSpotDialog.obj
+         stellarium.dir\Debug\CustomDeltaTEquationDialog.obj
+         stellarium.dir\Debug\AstroCalcDialog.obj
+         stellarium.dir\Debug\BookmarksDialog.obj
+         stellarium.dir\Debug\StelDialog.obj
+         stellarium.dir\Debug\ScriptConsole.obj
+         stellarium.dir\Debug\StelScriptSyntaxHighlighter.obj
+         stellarium.dir\Debug\qrc_guiRes.obj
+         stellarium.dir\Debug\qrc_mainRes.obj
+         stellarium.dir\Debug\main.obj
+         stellarium.dir\Debug\stellarium_automoc.obj
+         LINK : C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\src\Debug\stellarium.exe not found or not built by the last incremental link; performing full link
+         stellarium.vcxproj -> C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\src\Debug\stellarium.exe
+       PostBuildEvent:
+         setlocal
+         mt.exe -nologo -manifest C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/data/stellarium.exe.manifest -outputresource:C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/builds/msvc2013/src/Debug/stellarium.exe
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+     1>Done Building Project "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\src\stellarium.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.19

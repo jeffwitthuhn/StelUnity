@@ -1,0 +1,21 @@
+﻿Build started 1/26/2017 10:45:09 AM.
+     1>Project "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\data\icon.vcxproj" on node 8 (Rebuild target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/data/CMakeLists.txt
+         CMake does not need to re-run because C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\data\CMakeFiles\generate.stamp is up-to-date.
+       PostBuildEvent:
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/data/stellarium.ico C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/builds/msvc2013/data/stellarium.ico
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+     1>Done Building Project "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\data\icon.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.20

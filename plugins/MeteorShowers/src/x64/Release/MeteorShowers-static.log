@@ -1,0 +1,32 @@
+﻿Build started 1/25/2017 3:35:34 PM.
+     1>Project "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\MeteorShowers\src\MeteorShowers-static.vcxproj" on node 4 (Build target(s)).
+     1>PreBuildEvent:
+         setlocal
+         cd C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\MeteorShowers\src
+         if %errorlevel% neq 0 goto :cmEnd
+         C:
+         if %errorlevel% neq 0 goto :cmEnd
+         "C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/builds/msvc2013/plugins/MeteorShowers/src/CMakeFiles/MeteorShowers-static_automoc.dir/ Release
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\x64\Release\MeteorShowers.lib" /NOLOGO /MACHINE:X64  x64\Release\MeteorShower.obj
+         x64\Release\MeteorShowers.obj
+         x64\Release\MeteorShowersMgr.obj
+         x64\Release\MeteorObj.obj
+         x64\Release\MSConfigDialog.obj
+         x64\Release\MSSearchDialog.obj
+         x64\Release\qrc_MeteorShower.obj
+         "x64\Release\MeteorShowers-static_automoc.obj"
+         MeteorShowers-static.vcxproj -> C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\x64\Release\MeteorShowers.lib
+     1>Done Building Project "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\MeteorShowers\src\MeteorShowers-static.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.52

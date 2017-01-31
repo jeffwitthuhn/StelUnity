@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{2021A212-2D96-3BFD-BE81-2E7975C0DFFA}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>buildTests</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\src;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src;C:\Qt5\5.5\msvc2013\include;C:\Qt5\5.5\msvc2013\include\QtScript;C:\Qt5\5.5\msvc2013\include\QtCore;C:\Qt5\5.5\msvc2013\.\mkspecs\win32-msvc2013;C:\Qt5\5.5\msvc2013\include\QtMultimedia;C:\Qt5\5.5\msvc2013\include\QtNetwork;C:\Qt5\5.5\msvc2013\include\QtGui;C:\Qt5\5.5\msvc2013\include\QtMultimediaWidgets;C:\Qt5\5.5\msvc2013\include\QtWidgets;C:\Qt5\5.5\msvc2013\include\QtTest;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\modules;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\planetsephems;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\qtcompress;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\qcustomplot;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\glues_stel\source;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\glues_stel\source\libtess;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\gui;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\scripting;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\src;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src;C:\Qt5\5.5\msvc2013\include;C:\Qt5\5.5\msvc2013\include\QtScript;C:\Qt5\5.5\msvc2013\include\QtCore;C:\Qt5\5.5\msvc2013\.\mkspecs\win32-msvc2013;C:\Qt5\5.5\msvc2013\include\QtMultimedia;C:\Qt5\5.5\msvc2013\include\QtNetwork;C:\Qt5\5.5\msvc2013\include\QtGui;C:\Qt5\5.5\msvc2013\include\QtMultimediaWidgets;C:\Qt5\5.5\msvc2013\include\QtWidgets;C:\Qt5\5.5\msvc2013\include\QtTest;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\modules;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\planetsephems;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\qtcompress;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\qcustomplot;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\glues_stel\source;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\glues_stel\source\libtess;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\gui;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\scripting;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\src;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src;C:\Qt5\5.5\msvc2013\include;C:\Qt5\5.5\msvc2013\include\QtScript;C:\Qt5\5.5\msvc2013\include\QtCore;C:\Qt5\5.5\msvc2013\.\mkspecs\win32-msvc2013;C:\Qt5\5.5\msvc2013\include\QtMultimedia;C:\Qt5\5.5\msvc2013\include\QtNetwork;C:\Qt5\5.5\msvc2013\include\QtGui;C:\Qt5\5.5\msvc2013\include\QtMultimediaWidgets;C:\Qt5\5.5\msvc2013\include\QtWidgets;C:\Qt5\5.5\msvc2013\include\QtTest;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\modules;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\planetsephems;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\qtcompress;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\qcustomplot;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\glues_stel\source;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\glues_stel\source\libtess;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\gui;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\scripting;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\src;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src;C:\Qt5\5.5\msvc2013\include;C:\Qt5\5.5\msvc2013\include\QtScript;C:\Qt5\5.5\msvc2013\include\QtCore;C:\Qt5\5.5\msvc2013\.\mkspecs\win32-msvc2013;C:\Qt5\5.5\msvc2013\include\QtMultimedia;C:\Qt5\5.5\msvc2013\include\QtNetwork;C:\Qt5\5.5\msvc2013\include\QtGui;C:\Qt5\5.5\msvc2013\include\QtMultimediaWidgets;C:\Qt5\5.5\msvc2013\include\QtWidgets;C:\Qt5\5.5\msvc2013\include\QtTest;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\modules;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\planetsephems;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\qtcompress;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\qcustomplot;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\glues_stel\source;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\glues_stel\source\libtess;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\gui;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\scripting;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1 -BC:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/builds/msvc2013 --check-stamp-file C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\src\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/src/CMakeLists.txt;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\CMakeLists.txt;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\data\mainRes.qrc;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\data\gui\guiRes.qrc;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\util\spout2\Win32\SpoutLibrary.dll;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1 -BC:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/builds/msvc2013 --check-stamp-file C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\src\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/src/CMakeLists.txt;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\CMakeLists.txt;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\data\mainRes.qrc;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\data\gui\guiRes.qrc;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\util\spout2\Win32\SpoutLibrary.dll;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1 -BC:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/builds/msvc2013 --check-stamp-file C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\src\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/src/CMakeLists.txt;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\CMakeLists.txt;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\data\mainRes.qrc;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\data\gui\guiRes.qrc;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\util\spout2\Win32\SpoutLibrary.dll;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1 -BC:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/builds/msvc2013 --check-stamp-file C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\src\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/src/CMakeLists.txt;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\CMakeLists.txt;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\data\mainRes.qrc;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\data\gui\guiRes.qrc;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\util\spout2\Win32\SpoutLibrary.dll;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Program Files\CMake\share\cmake-3.7\Modules\AutogenInfo.cmake.in;C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/builds/msvc2013/ZERO_CHECK.vcxproj">
+      <Project>E9A428B8-9D67-333C-9699-0498111655F7</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/builds/msvc2013/src/testConversions.vcxproj">
+      <Project>6E752B42-7962-3748-93EA-D8EF6DE0767E</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/builds/msvc2013/src/testDates.vcxproj">
+      <Project>200B0398-1BEF-35C8-8492-25F83F1D74D3</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/builds/msvc2013/src/testDeltaT.vcxproj">
+      <Project>C240A6BC-EEC0-3C35-A19F-BBC82FF87EB2</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/builds/msvc2013/src/testEphemeris.vcxproj">
+      <Project>6AC19172-ADF4-3F38-AC82-F361DB4BB419</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/builds/msvc2013/src/testExtinction.vcxproj">
+      <Project>B653184E-F7A3-301D-8578-666B12D83861</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/builds/msvc2013/src/testPrecession.vcxproj">
+      <Project>79EF70D1-16AD-3822-9938-3F18599822B1</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/builds/msvc2013/src/testRefraction.vcxproj">
+      <Project>4C82DE64-6634-3D8B-B0E3-DD9AB0B07DB9</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/builds/msvc2013/src/testStelFileMgr.vcxproj">
+      <Project>6ED03985-20F2-3E4C-8A10-4914758A37D2</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/builds/msvc2013/src/testStelJsonParser.vcxproj">
+      <Project>266B3164-EA72-3080-9465-830E80BCBB9A</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/builds/msvc2013/src/testStelSphereGeometry.vcxproj">
+      <Project>74E2F5C2-ABE5-375D-997A-C883E10BFE2E</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/builds/msvc2013/src/testStelSphericalIndex.vcxproj">
+      <Project>2684342B-AF9A-31C7-BD06-1647F84A97B5</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/builds/msvc2013/src/testStelVertexArray.vcxproj">
+      <Project>EBA1CFEC-135E-3064-B136-63D4DC019E82</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

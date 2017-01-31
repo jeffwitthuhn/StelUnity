@@ -1,0 +1,75 @@
+﻿Build started 1/25/2017 3:56:16 PM.
+     1>Project "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\TelescopeControl-static.vcxproj" on node 9 (Build target(s)).
+     1>PreBuildEvent:
+         setlocal
+         cd C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src
+         if %errorlevel% neq 0 goto :cmEnd
+         C:
+         if %errorlevel% neq 0 goto :cmEnd
+         "C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/builds/msvc2013/plugins/TelescopeControl/src/CMakeFiles/TelescopeControl-static_automoc.dir/ Debug
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+       CustomBuild:
+         Building Custom Rule C:/Users/VizLab/Desktop/stellarium/stellarium-0.15.1/plugins/TelescopeControl/src/CMakeLists.txt
+         CMake does not need to re-run because C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\CMakeFiles\generate.stamp is up-to-date.
+         Generating qrc_TelescopeControl.cpp
+         Generating ui_slewDialog.h
+         Generating ui_telescopeDialog.h
+         Generating ui_telescopeConfigurationDialog.h
+         Generating ui_storedPointsDialog.h
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src" /IC:\Qt5\5.5\msvc2013_64\include /IC:\Qt5\5.5\msvc2013_64\include\QtScript /IC:\Qt5\5.5\msvc2013_64\include\QtCore /I"C:\Qt5\5.5\msvc2013_64\.\mkspecs\win32-msvc2013" /IC:\Qt5\5.5\msvc2013_64\include\QtMultimedia /IC:\Qt5\5.5\msvc2013_64\include\QtNetwork /IC:\Qt5\5.5\msvc2013_64\include\QtGui /IC:\Qt5\5.5\msvc2013_64\include\QtMultimediaWidgets /IC:\Qt5\5.5\msvc2013_64\include\QtWidgets /IC:\Qt5\5.5\msvc2013_64\include\QtTest /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\modules" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\planetsephems" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\qtcompress" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\qcustomplot" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\glues_stel\source" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\glues_stel\source\libtess" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\gui" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\scripting" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\src" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\src\core\external\zlib" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\." /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\gui" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\clients" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\servers" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\gui" /I"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\servers" /IC:\Qt5\5.5\msvc2013_64\include\QtSerialPort /IC:\Qt5\5.5\msvc2013_64\include\QtOpenGL /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D QT_STATICPLUGIN /D QT_CORE_LIB /D QT_NETWORK_LIB /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_SERIALPORT_LIB /D QT_OPENGL_LIB /D STELLARIUM_MAJOR=0 /D STELLARIUM_MINOR=15 /D STELLARIUM_PATCH=1 /D "PACKAGE_VERSION=\"0.15.1\"" /D "COPYRIGHT_YEARS=\"2000-2016\"" /D STELLARIUM_RELEASE_BUILD /D QT_NO_DEBUG /D NDEBUG /D _USE_MATH_DEFINES /D NOMINMAX /D _WINSOCKAPI_ /D _CRT_SECURE_NO_WARNINGS /D ENABLE_NLS /D ENABLE_SPOUT /D ENABLE_SCRIPT_CONSOLE /D ENABLE_MEDIA /D "INSTALL_DATADIR=\".\"" /D "INSTALL_LOCALEDIR=\"./locale\"" /D QT_PLUGIN /D QT_DLL /D _REENTRANT /D "TELESCOPE_CONTROL_VERSION=\"0.2.11\"" /D DEBUG3 /D DEBUG4 /D DEBUG5 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /wd4244 /wd4005 /wd4101 /wd4996 /wd4305 /wd4805 /errorReport:prompt "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\clients\InterpolatedPosition.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\clients\TelescopeClient.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\clients\TelescopeClientDirectLx200.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\clients\TelescopeClientDirectNexStar.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\TelescopeControl.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\gui\SlewDialog.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\gui\TelescopeDialog.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\gui\TelescopeConfigurationDialog.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\gui\StoredPointsDialog.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\servers\LogFile.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\servers\Socket.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\servers\Server.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\servers\Connection.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\servers\SerialPort.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\servers\Lx200Connection.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\servers\Lx200Command.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\servers\NexStarConnection.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\plugins\TelescopeControl\src\servers\NexStarCommand.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\qrc_TelescopeControl.cpp" "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\TelescopeControl-static_automoc.cpp"
+         InterpolatedPosition.cpp
+         TelescopeClient.cpp
+         TelescopeClientDirectLx200.cpp
+         TelescopeClientDirectNexStar.cpp
+         TelescopeControl.cpp
+         SlewDialog.cpp
+         TelescopeDialog.cpp
+         TelescopeConfigurationDialog.cpp
+         StoredPointsDialog.cpp
+         LogFile.cpp
+         Socket.cpp
+         Server.cpp
+         Connection.cpp
+         SerialPort.cpp
+         Lx200Connection.cpp
+         Lx200Command.cpp
+         NexStarConnection.cpp
+         NexStarCommand.cpp
+         qrc_TelescopeControl.cpp
+         TelescopeControl-static_automoc.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\x64\Debug\TelescopeControl.lib" /NOLOGO /MACHINE:X64 x64\Debug\InterpolatedPosition.obj
+         x64\Debug\TelescopeClient.obj
+         x64\Debug\TelescopeClientDirectLx200.obj
+         x64\Debug\TelescopeClientDirectNexStar.obj
+         x64\Debug\TelescopeControl.obj
+         x64\Debug\SlewDialog.obj
+         x64\Debug\TelescopeDialog.obj
+         x64\Debug\TelescopeConfigurationDialog.obj
+         x64\Debug\StoredPointsDialog.obj
+         x64\Debug\LogFile.obj
+         x64\Debug\Socket.obj
+         x64\Debug\Server.obj
+         x64\Debug\Connection.obj
+         x64\Debug\SerialPort.obj
+         x64\Debug\Lx200Connection.obj
+         x64\Debug\Lx200Command.obj
+         x64\Debug\NexStarConnection.obj
+         x64\Debug\NexStarCommand.obj
+         x64\Debug\qrc_TelescopeControl.obj
+         "x64\Debug\TelescopeControl-static_automoc.obj"
+         TelescopeControl-static.vcxproj -> C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\x64\Debug\TelescopeControl.lib
+     1>Done Building Project "C:\Users\VizLab\Desktop\stellarium\stellarium-0.15.1\builds\msvc2013\plugins\TelescopeControl\src\TelescopeControl-static.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:34.57
